@@ -1,0 +1,306 @@
+	Tue Jan 27 23:24 2015 Time and Allocation Profiling Report  (Final)
+
+	   icfp9-machine +RTS -pa -RTS sandmark.umz
+
+	total time  =        1.30 secs   (1301 ticks @ 1000 us, 1 processor)
+	total alloc = 1,227,656,096 bytes  (excludes profiling overheads)
+
+COST CENTRE         MODULE                           %time %alloc  ticks     bytes
+
+realIx              Memory                            38.2   46.3    497 568305016
+GC                  GC                                10.5    0.0    136      1112
+getMemElem          Memory                            10.1    0.0    132         0
+readInstruction     Instruction                        4.8    5.7     63  69827280
+runProgram          Program                            4.2    7.0     54  85389952
+addition            Instruction                        4.0    4.8     52  59292176
+notAnd              Instruction                        3.5    3.3     46  40777704
+runInstruction      Instruction                        3.5    1.2     45  15311992
+arrayIndex          Instruction                        3.4    3.3     44  40997808
+showsPrec           Memory                             2.9   13.5     38 165686936
+orthography         Instruction                        2.8    4.6     36  56948728
+loadProgram         Instruction                        2.5    2.8     32  34186800
+arrayAmendment      Instruction                        2.2    1.5     28  18543920
+setMemElem          Memory                             1.6    3.2     21  39613952
+register            Memory                             1.5    0.0     19         0
+OVERHEAD_of         PROFILING                          1.2    0.0     16         0
+SYSTEM              SYSTEM                             0.9    0.1     12   1672432
+condMove            Instruction                        0.8    1.5     10  18147696
+division            Instruction                        0.5    0.5      7   6307976
+programWords.go     Program                            0.3    0.3      4   4058232
+regLens             Instruction                        0.2    0.0      3         0
+newArray            Memory                             0.2    0.0      2     80480
+multiplication      Instruction                        0.2    0.1      2   1798672
+output              Instruction                        0.1    0.0      1    567488
+main                Main                               0.1    0.0      1     78712
+IDLE                IDLE                               0.0    0.0      0         0
+PINNED              SYSTEM                             0.0    0.0      0         0
+DONT_CARE           MAIN                               0.0    0.0      0         0
+MAIN                MAIN                               0.0    0.0      0      3048
+CAF                 GHC.Integer.Type                   0.0    0.0      0         0
+CAF                 GHC.Integer.Logarithms.Internals   0.0    0.0      0         0
+CAF                 GHC.Event.TimerManager             0.0    0.0      0         0
+CAF                 GHC.Event.Thread                   0.0    0.0      0         0
+CAF                 GHC.Event.Poll                     0.0    0.0      0         0
+CAF                 GHC.Event.PSQ                      0.0    0.0      0         0
+CAF                 GHC.Event.Manager                  0.0    0.0      0         0
+CAF                 GHC.Event.KQueue                   0.0    0.0      0         0
+CAF                 GHC.Event.Internal                 0.0    0.0      0         0
+CAF                 GHC.Event.Control                  0.0    0.0      0         0
+CAF                 GHC.Event.Array                    0.0    0.0      0         0
+CAF                 Text.Read.Lex                      0.0    0.0      0         0
+CAF                 Text.ParserCombinators.ReadP       0.0    0.0      0         0
+CAF                 System.Posix.Internals             0.0    0.0      0         0
+CAF                 System.Exit                        0.0    0.0      0         0
+CAF                 GHC.Word                           0.0    0.0      0         0
+CAF                 GHC.TopHandler                     0.0    0.0      0        48
+CAF                 GHC.Show                           0.0    0.0      0         0
+CAF                 GHC.Real                           0.0    0.0      0         0
+CAF                 GHC.Read                           0.0    0.0      0         0
+CAF                 GHC.List                           0.0    0.0      0         0
+CAF                 GHC.IO.Handle.Types                0.0    0.0      0         0
+CAF                 GHC.IO.Handle.Text                 0.0    0.0      0         0
+CAF                 GHC.IO.Handle.Internals            0.0    0.0      0         0
+CAF                 GHC.IO.Handle.FD                   0.0    0.0      0     34512
+CAF                 GHC.IO.Handle                      0.0    0.0      0         0
+CAF                 GHC.IO.FD                          0.0    0.0      0        16
+CAF                 GHC.IO.Exception                   0.0    0.0      0         0
+CAF                 GHC.IO.Encoding.UTF8               0.0    0.0      0         0
+CAF                 GHC.IO.Encoding.UTF32              0.0    0.0      0         0
+CAF                 GHC.IO.Encoding.UTF16              0.0    0.0      0         0
+CAF                 GHC.IO.Encoding.Iconv              0.0    0.0      0       232
+CAF                 GHC.IO.Encoding.Failure            0.0    0.0      0         0
+CAF                 GHC.IO.Encoding                    0.0    0.0      0      3792
+CAF                 GHC.IO                             0.0    0.0      0         0
+CAF                 GHC.ForeignPtr                     0.0    0.0      0         0
+CAF                 GHC.Float.ConversionUtils          0.0    0.0      0         0
+CAF                 GHC.Float                          0.0    0.0      0         0
+CAF                 GHC.Exception                      0.0    0.0      0         0
+CAF                 GHC.Err                            0.0    0.0      0         0
+CAF                 GHC.Enum                           0.0    0.0      0         0
+CAF                 GHC.Conc.Sync                      0.0    0.0      0         0
+CAF                 GHC.Conc.Signal                    0.0    0.0      0       656
+CAF                 GHC.Arr                            0.0    0.0      0         0
+CAF                 Foreign.Marshal.Alloc              0.0    0.0      0         0
+CAF                 Debug.Trace                        0.0    0.0      0       232
+CAF                 Data.Typeable.Internal             0.0    0.0      0         0
+CAF                 Data.Maybe                         0.0    0.0      0         0
+CAF                 Data.Data                          0.0    0.0      0         0
+CAF                 Control.Exception.Base             0.0    0.0      0         0
+CAF                 Data.ByteString.Internal           0.0    0.0      0         0
+CAF                 Data.ByteString                    0.0    0.0      0         0
+CAF                 Data.IntMap.Base                   0.0    0.0      0         0
+CAF                 Data.Sequence                      0.0    0.0      0         0
+CAF                 Control.Monad.State.Class          0.0    0.0      0         0
+CAF                 Data.Binary.Strict.Class           0.0    0.0      0         0
+CAF                 Data.Binary.Strict.Get             0.0    0.0      0         0
+CAF                 Data.Heap.Item                     0.0    0.0      0         0
+CAF                 Data.Heap.Internal                 0.0    0.0      0         0
+CAF                 Data.Tagged                        0.0    0.0      0         0
+CAF                 Data.Profunctor.Unsafe             0.0    0.0      0         0
+reuseArray          Memory                             0.0    0.0      0      4064
+imLookup            Memory                             0.0    0.0      0       256
+compare             Memory                             0.0    0.0      0         0
+showList            Memory                             0.0    0.0      0         0
+showsPrec           Memory                             0.0    0.0      0         0
+showList            Memory                             0.0    0.0      0         0
+/=                  Memory                             0.0    0.0      0         0
+==                  Memory                             0.0    0.0      0         0
+_arrayNum           Memory                             0.0    0.0      0         0
+_arrayIndex         Memory                             0.0    0.0      0         0
+_arraySize          Memory                             0.0    0.0      0         0
+_r8                 Memory                             0.0    0.0      0         0
+_r7                 Memory                             0.0    0.0      0         0
+_r6                 Memory                             0.0    0.0      0         0
+_r5                 Memory                             0.0    0.0      0         0
+_r4                 Memory                             0.0    0.0      0         0
+_r3                 Memory                             0.0    0.0      0         0
+_r2                 Memory                             0.0    0.0      0         0
+_r1                 Memory                             0.0    0.0      0         0
+_nextArrayNum       Memory                             0.0    0.0      0         0
+_unusedMemory       Memory                             0.0    0.0      0         0
+_registers          Memory                             0.0    0.0      0         0
+_ip                 Memory                             0.0    0.0      0         0
+_arrayInfo          Memory                             0.0    0.0      0         0
+_memory             Memory                             0.0    0.0      0         0
+_zeroArray          Memory                             0.0    0.0      0         0
+newArray'           Memory                             0.0    0.0      0         0
+newArray'.arrNum    Memory                             0.0    0.0      0         0
+initialMachine      Memory                             0.0    0.0      0         0
+realArrNum          Memory                             0.0    0.0      0       304
+CAF                 Memory                             0.0    0.0      0       320
+show                Instruction                        0.0    0.0      0         0
+showList            Instruction                        0.0    0.0      0         0
+showsPrec           Instruction                        0.0    0.0      0         0
+_cRegNum            Instruction                        0.0    0.0      0         0
+_bRegNum            Instruction                        0.0    0.0      0         0
+_aRegNum            Instruction                        0.0    0.0      0         0
+traceShowId         Instruction                        0.0    0.0      0         0
+readRegisterTriplet Instruction                        0.0    0.0      0         0
+readOpcode          Instruction                        0.0    0.0      0         0
+readOrthographyArgs Instruction                        0.0    0.0      0        48
+halt                Instruction                        0.0    0.0      0         0
+allocation          Instruction                        0.0    0.0      0      8008
+abandonment         Instruction                        0.0    0.0      0      5232
+input               Instruction                        0.0    0.0      0         0
+CAF                 Instruction                        0.0    0.0      0       216
+spinCycle           Program                            0.0    0.0      0         0
+CAF                 Program                            0.0    0.0      0        32
+CAF                 Main                               0.0    0.0      0        16
+
+
+                                                                             individual     inherited
+COST CENTRE             MODULE                             no.     entries  %time %alloc   %time %alloc  ticks     bytes
+
+MAIN                    MAIN                                72           0    0.0    0.0   100.0  100.0      0      3048
+ main                   Main                               145           0    0.1    0.0    87.4   99.9      1     78712
+  runProgram            Program                            147           0    4.2    7.0    87.3   99.9     54  85389952
+   programWords.go      Program                            156           0    0.3    0.3     0.3    0.3      4   4058232
+   getMemElem           Memory                             154      547090    8.5    0.0     8.5    0.0    110         0
+   readInstruction      Instruction                        151      547091    4.8    5.7     4.8    5.7     63  69827280
+    readOrthographyArgs Instruction                        166      169162    0.0    0.0     0.0    0.0      0         0
+    readRegisterTriplet Instruction                        160      452987    0.0    0.0     0.0    0.0      0         0
+    readOpcode          Instruction                        152      547091    0.0    0.0     0.0    0.0      0         0
+   runInstruction       Instruction                        149      547091    3.5    1.2    69.6   86.9     45  15311992
+    abandonment         Instruction                        198          13    0.0    0.0     0.0    0.0      0      5232
+     compare            Memory                             212          17    0.0    0.0     0.0    0.0      0         0
+     imLookup           Memory                             202          13    0.0    0.0     0.0    0.0      0       208
+     realArrNum         Memory                             201          13    0.0    0.0     0.0    0.0      0         0
+     register           Memory                             199          13    0.0    0.0     0.0    0.0      0         0
+    allocation          Instruction                        189          17    0.0    0.0     0.2    0.0      0      7680
+     register           Memory                             197          34    0.0    0.0     0.0    0.0      0         0
+     newArray'          Memory                             191          17    0.0    0.0     0.2    0.0      0         0
+      newArray          Memory                             192          17    0.2    0.0     0.2    0.0      2     80304
+       newArray'.arrNum Memory                             215           3    0.0    0.0     0.0    0.0      0         0
+       reuseArray       Memory                             213           3    0.0    0.0     0.0    0.0      0      4008
+        imLookup        Memory                             217           2    0.0    0.0     0.0    0.0      0        32
+        realArrNum      Memory                             216           5    0.0    0.0     0.0    0.0      0        80
+       realArrNum       Memory                             200          14    0.0    0.0     0.0    0.0      0       224
+    output              Instruction                        187         546    0.1    0.0     0.1    0.0      1    567488
+     register           Memory                             188         546    0.0    0.0     0.0    0.0      0         0
+    arrayAmendment      Instruction                        183       26345    2.2    1.5    16.1   24.8     28  18543920
+     setMemElem         Memory                             186       26344    1.6    3.2    13.8   23.3     21  39613952
+      realIx            Memory                             209       14411   11.5   15.6    12.1   20.1    149 190941232
+       showsPrec        Memory                             211       14411    0.7    4.5     0.7    4.5      9  55669848
+       realArrNum       Memory                             210           0    0.0    0.0     0.0    0.0      0         0
+      realArrNum        Memory                             208       14411    0.0    0.0     0.0    0.0      0         0
+     regLens            Instruction                        184       78445    0.1    0.0     0.2    0.0      1         0
+      register          Memory                             185       78445    0.1    0.0     0.1    0.0      1         0
+    arrayIndex          Instruction                        179       63232    3.4    3.3    21.4   26.9     44  40997808
+     getMemElem         Memory                             182       63232    1.3    0.0    17.8   23.5     17         0
+      realIx            Memory                             204       16833   15.1   18.2    16.5   23.5    196 223483528
+       showsPrec        Memory                             206       16833    1.5    5.3     1.5    5.3     19  65180144
+       realArrNum       Memory                             205           0    0.0    0.0     0.0    0.0      0         0
+      realArrNum        Memory                             203       16833    0.0    0.0     0.0    0.0      0         0
+     regLens            Instruction                        180      189696    0.0    0.0     0.2    0.0      0         0
+      register          Memory                             181      189696    0.2    0.0     0.2    0.0      2         0
+    division            Instruction                        176        9917    0.5    0.5     0.6    0.5      7   6307976
+     regLens            Instruction                        177       29751    0.0    0.0     0.1    0.0      0         0
+      register          Memory                             178       29751    0.1    0.0     0.1    0.0      1         0
+    multiplication      Instruction                        173        2846    0.2    0.1     0.2    0.1      2   1798672
+     regLens            Instruction                        174        8538    0.0    0.0     0.0    0.0      0         0
+      register          Memory                             175        8538    0.0    0.0     0.0    0.0      0         0
+    notAnd              Instruction                        170       64487    3.5    3.3     3.8    3.3     46  40777704
+     regLens            Instruction                        171      193461    0.1    0.0     0.3    0.0      1         0
+      register          Memory                             172      193461    0.2    0.0     0.2    0.0      3         0
+    loadProgram         Instruction                        168       75042    2.5    2.8    15.6   19.0     32  34186800
+     getMemElem         Memory                             220       11651    0.4    0.0    12.8   16.2      5         0
+      realIx            Memory                             222       11651   11.7   12.5    12.5   16.2    152 153880256
+       showsPrec        Memory                             224       11651    0.8    3.7     0.8    3.7     10  44833048
+       realArrNum       Memory                             223           0    0.0    0.0     0.0    0.0      0         0
+      realArrNum        Memory                             221       11651    0.0    0.0     0.0    0.0      0         0
+     imLookup           Memory                             219           1    0.0    0.0     0.0    0.0      0        16
+     realArrNum         Memory                             218           1    0.0    0.0     0.0    0.0      0         0
+     register           Memory                             169      150084    0.3    0.0     0.3    0.0      4         0
+    orthography         Instruction                        164      169162    2.8    4.6     2.9    4.6     36  56948728
+     register           Memory                             165      169162    0.2    0.0     0.2    0.0      2         0
+    addition            Instruction                        161       93803    4.0    4.8     4.4    4.8     52  59292176
+     regLens            Instruction                        162      281409    0.1    0.0     0.4    0.0      1         0
+      register          Memory                             163      281409    0.3    0.0     0.3    0.0      4         0
+    condMove            Instruction                        157       41680    0.8    1.5     0.9    1.5     10  18147696
+     regLens            Instruction                        158      100062    0.0    0.0     0.2    0.0      0         0
+      register          Memory                             159      100062    0.2    0.0     0.2    0.0      2         0
+   spinCycle            Program                            148           1    0.0    0.0     0.0    0.0      0         0
+ CAF                    Main                               143           0    0.0    0.0     0.0    0.0      0        16
+  main                  Main                               144           1    0.0    0.0     0.0    0.0      0         0
+ CAF                    Program                            142           0    0.0    0.0     0.0    0.0      0        32
+  programWords.go       Program                            155           1    0.0    0.0     0.0    0.0      0         0
+  runProgram            Program                            146           1    0.0    0.0     0.0    0.0      0         0
+ CAF                    Instruction                        141           0    0.0    0.0     0.0    0.0      0       216
+  allocation            Instruction                        190           0    0.0    0.0     0.0    0.0      0       328
+   newArray'            Memory                             193           0    0.0    0.0     0.0    0.0      0         0
+    newArray            Memory                             194           0    0.0    0.0     0.0    0.0      0        56
+     reuseArray         Memory                             214           0    0.0    0.0     0.0    0.0      0        56
+  readOrthographyArgs   Instruction                        167           0    0.0    0.0     0.0    0.0      0        48
+  traceShowId           Instruction                        150           1    0.0    0.0     0.0    0.0      0         0
+ CAF                    Memory                             140           0    0.0    0.0     0.0    0.0      0       320
+  showsPrec             Memory                             207           0    0.0    0.0     0.0    0.0      0      3896
+  newArray'             Memory                             195           0    0.0    0.0     0.0    0.0      0         0
+   newArray             Memory                             196           0    0.0    0.0     0.0    0.0      0       120
+  initialMachine        Memory                             153           1    0.0    0.0     0.0    0.0      0         0
+ CAF                    Data.Profunctor.Unsafe             139           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    Data.Tagged                        138           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    Data.Heap.Internal                 137           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    Data.Heap.Item                     136           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    Data.Binary.Strict.Get             135           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    Data.Binary.Strict.Class           134           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    Control.Monad.State.Class          133           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    Data.Sequence                      132           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    Data.IntMap.Base                   131           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    Data.ByteString                    130           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    Data.ByteString.Internal           129           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    Control.Exception.Base             128           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    Data.Data                          127           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    Data.Maybe                         126           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    Data.Typeable.Internal             125           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    Debug.Trace                        124           0    0.0    0.0     0.0    0.0      0       232
+ CAF                    Foreign.Marshal.Alloc              123           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Arr                            122           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Conc.Signal                    121           0    0.0    0.0     0.0    0.0      0       656
+ CAF                    GHC.Conc.Sync                      120           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Enum                           119           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Err                            118           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Exception                      117           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Float                          116           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Float.ConversionUtils          115           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.ForeignPtr                     114           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.IO                             113           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.IO.Encoding                    112           0    0.0    0.0     0.0    0.0      0      3792
+ CAF                    GHC.IO.Encoding.Failure            111           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.IO.Encoding.Iconv              110           0    0.0    0.0     0.0    0.0      0       232
+ CAF                    GHC.IO.Encoding.UTF16              109           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.IO.Encoding.UTF32              108           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.IO.Encoding.UTF8               107           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.IO.Exception                   106           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.IO.FD                          105           0    0.0    0.0     0.0    0.0      0        16
+ CAF                    GHC.IO.Handle                      104           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.IO.Handle.FD                   103           0    0.0    0.0     0.0    0.0      0     34512
+ CAF                    GHC.IO.Handle.Internals            102           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.IO.Handle.Text                 101           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.IO.Handle.Types                100           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.List                            99           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Read                            98           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Real                            97           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Show                            96           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.TopHandler                      95           0    0.0    0.0     0.0    0.0      0        48
+ CAF                    GHC.Word                            94           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    System.Exit                         93           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    System.Posix.Internals              92           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    Text.ParserCombinators.ReadP        91           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    Text.Read.Lex                       90           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Event.Array                     89           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Event.Control                   88           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Event.Internal                  87           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Event.KQueue                    86           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Event.Manager                   85           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Event.PSQ                       84           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Event.Poll                      83           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Event.Thread                    82           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Event.TimerManager              81           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Integer.Logarithms.Internals    80           0    0.0    0.0     0.0    0.0      0         0
+ CAF                    GHC.Integer.Type                    79           0    0.0    0.0     0.0    0.0      0         0
+ SYSTEM                 SYSTEM                              78           0    0.9    0.1     0.9    0.1     12   1672432
+ GC                     GC                                  77           0   10.5    0.0    10.5    0.0    136      1112
+ OVERHEAD_of            PROFILING                           76           0    1.2    0.0     1.2    0.0     16         0
+ DONT_CARE              MAIN                                75           0    0.0    0.0     0.0    0.0      0         0
+ PINNED                 SYSTEM                              74           0    0.0    0.0     0.0    0.0      0         0
+ IDLE                   IDLE                                73           0    0.0    0.0     0.0    0.0      0         0

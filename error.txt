@@ -1,0 +1,301 @@
+(Last few lines)
+
+Addition (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 4, _cRegNum = 3})
+Orthography 0x4 0x1144
+Orthography 0x5 0x1154
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 2})
+LoadProgram 0x6 0x4
+Orthography 0x4 0x1
+ArrayIndex (RegisterNumTriplet {_aRegNum = 5, _bRegNum = 2, _cRegNum = 4})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 5, _bRegNum = 2, _cRegNum = 4}
+NotAnd (RegisterNumTriplet {_aRegNum = 6, _bRegNum = 4, _cRegNum = 5})
+NotAnd (RegisterNumTriplet {_aRegNum = 6, _bRegNum = 6, _cRegNum = 6})
+Orthography 0x4 0x115d
+Orthography 0x5 0x1144
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 6})
+Orthography 0x6 0x0
+LoadProgram 0x6 0x4
+Orthography 0x4 0x2
+NotAnd (RegisterNumTriplet {_aRegNum = 5, _bRegNum = 4, _cRegNum = 4})
+Addition (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 3, _cRegNum = 5})
+Orthography 0x5 0x1
+Addition (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 5, _cRegNum = 2})
+Orthography 0x4 0x112a
+Orthography 0x5 0x114d
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 2})
+LoadProgram 0x6 0x4
+ArrayIndex (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 1, _cRegNum = 3})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 2, _bRegNum = 1, _cRegNum = 3}
+NotAnd (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 6, _cRegNum = 6})
+Addition (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 4, _cRegNum = 3})
+Orthography 0x4 0x1144
+Orthography 0x5 0x1154
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 2})
+LoadProgram 0x6 0x4
+Orthography 0x4 0x1
+ArrayIndex (RegisterNumTriplet {_aRegNum = 5, _bRegNum = 2, _cRegNum = 4})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 5, _bRegNum = 2, _cRegNum = 4}
+NotAnd (RegisterNumTriplet {_aRegNum = 6, _bRegNum = 4, _cRegNum = 5})
+NotAnd (RegisterNumTriplet {_aRegNum = 6, _bRegNum = 6, _cRegNum = 6})
+Orthography 0x4 0x115d
+Orthography 0x5 0x1144
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 6})
+Orthography 0x6 0x0
+LoadProgram 0x6 0x4
+Orthography 0x4 0x2
+NotAnd (RegisterNumTriplet {_aRegNum = 5, _bRegNum = 4, _cRegNum = 4})
+Addition (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 3, _cRegNum = 5})
+Orthography 0x5 0x1
+Addition (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 5, _cRegNum = 2})
+Orthography 0x4 0x112a
+Orthography 0x5 0x114d
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 2})
+LoadProgram 0x6 0x4
+ArrayIndex (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 1, _cRegNum = 3})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 2, _bRegNum = 1, _cRegNum = 3}
+NotAnd (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 6, _cRegNum = 6})
+Addition (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 4, _cRegNum = 3})
+Orthography 0x4 0x1144
+Orthography 0x5 0x1154
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 2})
+LoadProgram 0x6 0x4
+Orthography 0x4 0x1
+ArrayIndex (RegisterNumTriplet {_aRegNum = 5, _bRegNum = 2, _cRegNum = 4})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 5, _bRegNum = 2, _cRegNum = 4}
+NotAnd (RegisterNumTriplet {_aRegNum = 6, _bRegNum = 4, _cRegNum = 5})
+NotAnd (RegisterNumTriplet {_aRegNum = 6, _bRegNum = 6, _cRegNum = 6})
+Orthography 0x4 0x115d
+Orthography 0x5 0x1144
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 6})
+Orthography 0x6 0x0
+LoadProgram 0x6 0x4
+Orthography 0x4 0x2
+NotAnd (RegisterNumTriplet {_aRegNum = 5, _bRegNum = 4, _cRegNum = 4})
+Addition (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 3, _cRegNum = 5})
+Orthography 0x5 0x1
+Addition (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 5, _cRegNum = 2})
+Orthography 0x4 0x112a
+Orthography 0x5 0x114d
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 2})
+LoadProgram 0x6 0x4
+ArrayIndex (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 1, _cRegNum = 3})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 2, _bRegNum = 1, _cRegNum = 3}
+NotAnd (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 6, _cRegNum = 6})
+Addition (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 4, _cRegNum = 3})
+Orthography 0x4 0x1144
+Orthography 0x5 0x1154
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 2})
+LoadProgram 0x6 0x4
+Orthography 0x4 0x1
+ArrayIndex (RegisterNumTriplet {_aRegNum = 5, _bRegNum = 2, _cRegNum = 4})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 5, _bRegNum = 2, _cRegNum = 4}
+NotAnd (RegisterNumTriplet {_aRegNum = 6, _bRegNum = 4, _cRegNum = 5})
+NotAnd (RegisterNumTriplet {_aRegNum = 6, _bRegNum = 6, _cRegNum = 6})
+Orthography 0x4 0x115d
+Orthography 0x5 0x1144
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 6})
+Orthography 0x6 0x0
+LoadProgram 0x6 0x4
+Orthography 0x4 0x2
+NotAnd (RegisterNumTriplet {_aRegNum = 5, _bRegNum = 4, _cRegNum = 4})
+Addition (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 3, _cRegNum = 5})
+Orthography 0x5 0x1
+Addition (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 5, _cRegNum = 2})
+Orthography 0x4 0x112a
+Orthography 0x5 0x114d
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 2})
+LoadProgram 0x6 0x4
+ArrayIndex (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 1, _cRegNum = 3})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 2, _bRegNum = 1, _cRegNum = 3}
+NotAnd (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 6, _cRegNum = 6})
+Addition (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 4, _cRegNum = 3})
+Orthography 0x4 0x1144
+Orthography 0x5 0x1154
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 2})
+LoadProgram 0x6 0x4
+Orthography 0x4 0x1
+ArrayIndex (RegisterNumTriplet {_aRegNum = 5, _bRegNum = 2, _cRegNum = 4})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 5, _bRegNum = 2, _cRegNum = 4}
+NotAnd (RegisterNumTriplet {_aRegNum = 6, _bRegNum = 4, _cRegNum = 5})
+NotAnd (RegisterNumTriplet {_aRegNum = 6, _bRegNum = 6, _cRegNum = 6})
+Orthography 0x4 0x115d
+Orthography 0x5 0x1144
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 6})
+Orthography 0x6 0x0
+LoadProgram 0x6 0x4
+Orthography 0x4 0x2
+NotAnd (RegisterNumTriplet {_aRegNum = 5, _bRegNum = 4, _cRegNum = 4})
+Addition (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 3, _cRegNum = 5})
+Orthography 0x5 0x1
+Addition (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 5, _cRegNum = 2})
+Orthography 0x4 0x112a
+Orthography 0x5 0x114d
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 2})
+LoadProgram 0x6 0x4
+Orthography 0x4 0x118b
+Orthography 0x5 0x112e
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 0})
+LoadProgram 0x6 0x4
+ArrayIndex (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 0, _cRegNum = 6})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 2, _bRegNum = 0, _cRegNum = 6}
+Orthography 0x5 0x1
+ArrayIndex (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 0, _cRegNum = 5})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 4, _bRegNum = 0, _cRegNum = 5}
+Abandoment 0x0
+CondMove (RegisterNumTriplet {_aRegNum = 0, _bRegNum = 4, _cRegNum = 5})
+Orthography 0x4 0x1135
+LoadProgram 0x6 0x4
+Orthography 0x4 0x1
+ArrayIndex (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 2, _cRegNum = 4})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 3, _bRegNum = 2, _cRegNum = 4}
+Orthography 0x4 0x4
+NotAnd (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 3, _cRegNum = 4})
+NotAnd (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 3, _cRegNum = 3})
+Orthography 0x4 0x1178
+Orthography 0x5 0x113e
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 3})
+LoadProgram 0x6 0x4
+Orthography 0x4 0x3
+ArrayIndex (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 2, _cRegNum = 4})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 2, _bRegNum = 2, _cRegNum = 4}
+Orthography 0x4 0x112a
+Orthography 0x5 0x117e
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 2})
+LoadProgram 0x6 0x4
+Orthography 0x4 0x118b
+Orthography 0x5 0x112e
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 0})
+LoadProgram 0x6 0x4
+ArrayIndex (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 0, _cRegNum = 6})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 2, _bRegNum = 0, _cRegNum = 6}
+Orthography 0x5 0x1
+ArrayIndex (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 0, _cRegNum = 5})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 4, _bRegNum = 0, _cRegNum = 5}
+Abandoment 0x0
+CondMove (RegisterNumTriplet {_aRegNum = 0, _bRegNum = 4, _cRegNum = 5})
+Orthography 0x4 0x1135
+LoadProgram 0x6 0x4
+Orthography 0x4 0x1
+ArrayIndex (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 2, _cRegNum = 4})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 3, _bRegNum = 2, _cRegNum = 4}
+Orthography 0x4 0x4
+NotAnd (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 3, _cRegNum = 4})
+NotAnd (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 3, _cRegNum = 3})
+Orthography 0x4 0x1178
+Orthography 0x5 0x113e
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 3})
+LoadProgram 0x6 0x4
+CondMove (RegisterNumTriplet {_aRegNum = 1, _bRegNum = 2, _cRegNum = 2})
+Orthography 0x4 0x2
+ArrayIndex (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 1, _cRegNum = 4})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 3, _bRegNum = 1, _cRegNum = 4}
+Addition (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 3, _cRegNum = 4})
+Orthography 0x4 0x1144
+LoadProgram 0x6 0x4
+Orthography 0x4 0x2
+NotAnd (RegisterNumTriplet {_aRegNum = 5, _bRegNum = 4, _cRegNum = 4})
+Addition (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 3, _cRegNum = 5})
+Orthography 0x5 0x1
+Addition (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 5, _cRegNum = 2})
+Orthography 0x4 0x112a
+Orthography 0x5 0x114d
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 2})
+LoadProgram 0x6 0x4
+ArrayIndex (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 1, _cRegNum = 3})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 2, _bRegNum = 1, _cRegNum = 3}
+NotAnd (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 6, _cRegNum = 6})
+Addition (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 4, _cRegNum = 3})
+Orthography 0x4 0x1144
+Orthography 0x5 0x1154
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 2})
+LoadProgram 0x6 0x4
+Orthography 0x4 0x2
+NotAnd (RegisterNumTriplet {_aRegNum = 5, _bRegNum = 4, _cRegNum = 4})
+Addition (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 3, _cRegNum = 5})
+Orthography 0x5 0x1
+Addition (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 5, _cRegNum = 2})
+Orthography 0x4 0x112a
+Orthography 0x5 0x114d
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 2})
+LoadProgram 0x6 0x4
+ArrayIndex (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 1, _cRegNum = 3})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 2, _bRegNum = 1, _cRegNum = 3}
+NotAnd (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 6, _cRegNum = 6})
+Addition (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 4, _cRegNum = 3})
+Orthography 0x4 0x1144
+Orthography 0x5 0x1154
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 2})
+LoadProgram 0x6 0x4
+Orthography 0x4 0x1
+ArrayIndex (RegisterNumTriplet {_aRegNum = 5, _bRegNum = 2, _cRegNum = 4})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 5, _bRegNum = 2, _cRegNum = 4}
+NotAnd (RegisterNumTriplet {_aRegNum = 6, _bRegNum = 4, _cRegNum = 5})
+NotAnd (RegisterNumTriplet {_aRegNum = 6, _bRegNum = 6, _cRegNum = 6})
+Orthography 0x4 0x115d
+Orthography 0x5 0x1144
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 6})
+Orthography 0x6 0x0
+LoadProgram 0x6 0x4
+Orthography 0x4 0x1
+ArrayIndex (RegisterNumTriplet {_aRegNum = 6, _bRegNum = 2, _cRegNum = 4})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 6, _bRegNum = 2, _cRegNum = 4}
+Addition (RegisterNumTriplet {_aRegNum = 5, _bRegNum = 6, _cRegNum = 4})
+ArrayAmendment (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 4, _cRegNum = 5})
+Orthography 0x4 0x1144
+Orthography 0x5 0x1166
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 6})
+Orthography 0x6 0x0
+LoadProgram 0x6 0x4
+Orthography 0x4 0x2
+NotAnd (RegisterNumTriplet {_aRegNum = 7, _bRegNum = 4, _cRegNum = 4})
+Addition (RegisterNumTriplet {_aRegNum = 6, _bRegNum = 3, _cRegNum = 7})
+Orthography 0x7 0x1
+Addition (RegisterNumTriplet {_aRegNum = 6, _bRegNum = 7, _cRegNum = 6})
+Orthography 0x4 0x1135
+Orthography 0x5 0x1170
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 6})
+Orthography 0x6 0x0
+LoadProgram 0x6 0x4
+Orthography 0x4 0x1
+ArrayIndex (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 2, _cRegNum = 4})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 3, _bRegNum = 2, _cRegNum = 4}
+Orthography 0x4 0x4
+NotAnd (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 3, _cRegNum = 4})
+NotAnd (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 3, _cRegNum = 3})
+Orthography 0x4 0x1178
+Orthography 0x5 0x113e
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 3})
+LoadProgram 0x6 0x4
+CondMove (RegisterNumTriplet {_aRegNum = 1, _bRegNum = 2, _cRegNum = 2})
+Orthography 0x4 0x2
+ArrayIndex (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 1, _cRegNum = 4})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 3, _bRegNum = 1, _cRegNum = 4}
+Addition (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 3, _cRegNum = 4})
+Orthography 0x4 0x1144
+LoadProgram 0x6 0x4
+Orthography 0x4 0x2
+NotAnd (RegisterNumTriplet {_aRegNum = 5, _bRegNum = 4, _cRegNum = 4})
+Addition (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 3, _cRegNum = 5})
+Orthography 0x5 0x1
+Addition (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 5, _cRegNum = 2})
+Orthography 0x4 0x112a
+Orthography 0x5 0x114d
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 2})
+LoadProgram 0x6 0x4
+ArrayIndex (RegisterNumTriplet {_aRegNum = 2, _bRegNum = 1, _cRegNum = 3})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 2, _bRegNum = 1, _cRegNum = 3}
+NotAnd (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 6, _cRegNum = 6})
+Addition (RegisterNumTriplet {_aRegNum = 3, _bRegNum = 4, _cRegNum = 3})
+Orthography 0x4 0x1144
+Orthography 0x5 0x1154
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 2})
+LoadProgram 0x6 0x4
+Orthography 0x4 0x1
+ArrayIndex (RegisterNumTriplet {_aRegNum = 5, _bRegNum = 2, _cRegNum = 4})
+arrayIndex, reg info: RegisterNumTriplet {_aRegNum = 5, _bRegNum = 2, _cRegNum = 4}
+NotAnd (RegisterNumTriplet {_aRegNum = 6, _bRegNum = 4, _cRegNum = 5})
+NotAnd (RegisterNumTriplet {_aRegNum = 6, _bRegNum = 6, _cRegNum = 6})
+Orthography 0x4 0x115d
+Orthography 0x5 0x1144
+CondMove (RegisterNumTriplet {_aRegNum = 4, _bRegNum = 5, _cRegNum = 6})
+icfp9-machine: Internal error: Couldn't find arrayInfo for array #2748541410 (realArrNum = 2748541409, element #1)
